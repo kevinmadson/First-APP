@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Devry | UNIFAVIP</string>
+
+    <string-array name="cursos_array">
+        <item>Medicina</item>
+        <item>Farmácia</item>
+        <item>Engenharia M.</item>
+        <item>Biomedicina</item>
+        <item>Direitos</item>
+        <item>Ciência da Computação</item>
+        <item>Análise e Desenvolvimento de Sistemas</item>
+    </string-array>
+
+</resources>

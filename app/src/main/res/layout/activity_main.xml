@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aula01.aula01.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imagemDevry"
+            android:layout_width="120sp"
+            android:layout_height="120sp"
+            android:src="@drawable/devry" />
+
+        <TextView
+            android:id="@+id/text_view_id1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignLeft="@id/imagemDevry"
+            android:layout_marginLeft="125dp"
+            android:text="\n  MÁTRICULA UNIFAVIP 2017\n"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#27408B" />
+        <TextView
+            android:id="@+id/text_view_id2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignLeft="@id/imagemDevry"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="85dp"
+            android:text="\nMeu mundo novo tem qualidade  \n                  internacional."
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#27408B" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/campo_de_texto_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu nome" />
+
+    <EditText
+        android:id="@+id/campo_de_texto_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu e-mail" />
+    <EditText
+        android:id="@+id/campo_de_texto_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite sua senha"
+        android:inputType="textPassword"/>
+
+
+    <TextView
+        android:id="@+id/text_view_id4"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="\n  Escolha o Curso desejado:"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/cursos_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.Holo.Light.Spinner"/>
+
+    <TextView
+        android:id="@+id/text_view_id5"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text=""
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/text_view_id6"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="   Por favor, informe se você é um:"
+        android:textSize="17sp"
+        android:textStyle="bold"/>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/radioGroup">
+
+        <RadioButton android:id="@+id/radio_aluno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aluno    "
+            android:textSize="15sp"
+            android:textColor="#000000"/>
+        <RadioButton android:id="@+id/radio_professor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Professor"
+            android:textSize="15sp"
+            android:textColor="#000000"/>
+
+    </RadioGroup>
+
+    <TextView
+            android:id="@+id/text_view_id7"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text=""
+            android:textSize="10sp"
+            android:textStyle="bold"/>
+
+    <CheckBox android:id="@+id/checkbox_termos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" você concorda com os termos de uso?"
+            android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/text_view_id8"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text=""
+        android:textSize="1sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/botao_enviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text="Enviar" />
+        <Button
+            android:id="@+id/botao_cancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text="Cancelar" />
+
+    </LinearLayout>
+
+
+</LinearLayout></ScrollView>
