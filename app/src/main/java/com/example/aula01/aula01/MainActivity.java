@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
         public DBHelper(Context context)
         {
-            super(context, DATABASE_NAME , null, 1);
+            super(context, DATABASE_NAME ,null, 1);
         }
 
         @Override

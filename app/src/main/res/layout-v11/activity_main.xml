@@ -34,16 +34,16 @@
             android:textStyle="bold"
             android:textColor="#27408B" />
         <TextView
-                android:id="@+id/text_view_id2"
-                android:layout_height="35dp"
-                android:layout_width="277dp"
-                android:layout_alignLeft="@id/imagemDevry"
-                android:layout_marginLeft="106dp"
-                android:layout_marginTop="85dp"
-                android:text="\nMeu mundo novo tem qualidade  \n                  internacional."
-                android:textSize="16sp"
-                android:textStyle="bold"
-                android:textColor="#27408B"/>
+            android:id="@+id/text_view_id2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignLeft="@id/imagemDevry"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="85dp"
+            android:text="\nMeu mundo novo tem qualidade  \n                  internacional."
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#27408B" />
 
     </RelativeLayout>
 
